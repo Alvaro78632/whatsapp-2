@@ -8,7 +8,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import { useCollection } from 'react-firebase-hooks/firestore'
 import { auth, db } from "../firebase";
 // import Chat from '../components/chat';
-import Chat from 'components/Chat';
+import Chat from 'Chat';
 
 
 function Sidebar() {
